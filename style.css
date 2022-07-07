@@ -1,0 +1,311 @@
+.header {
+    font-family: 'Josefin Slab', serif;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type:none;
+    background-color: #eae2f1;
+    border-radius: 15px;
+    padding: 20px;
+   
+}
+.element {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Josefin Slab', serif;
+}
+
+.element2 {
+    display: flex;
+    justify-content: center;
+}
+
+.but {
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(171, 107, 255);
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+}
+
+.inputField {
+    padding: 20px;
+    width: 30%;
+    border: none;
+}
+.done{
+    background-color: #e9baf3;
+    font-family: 'Josefin Slab', serif;
+    list-style-type: none;
+    height: 40px;
+    width: 30%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+
+.toDoDone {
+    background-color:rgb(168, 73, 223);
+    color:black;
+    font-weight: bold;
+    text-decoration:line-through;
+    transition: all 2s ease;
+}
+.citation {
+    font-family: 'Dancing Script', cursive;
+}
+.citation:hover {
+  background-color:#e0d5eb;
+  border:2px;
+  border-radius: 15px;
+  padding:5px;
+  text-decoration: underline;
+  
+}
+a {
+    color: rgb(226, 174, 226);
+}
+
+body {
+    background-color:#F3F1F5 ;
+}
+
+.one {
+    background-image: url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+}
+
+.two {
+    background-image: url('https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80');
+}
+.three {
+    background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80'); 
+}
+.four {
+    background-image: url('https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80');
+}
+.five {
+    background-image: url('https://images.unsplash.com/photo-1596704285467-74840223c121?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+}
+.six {
+    background-image: url('https://images.unsplash.com/photo-1605960108392-a7fec6233f21?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80');
+}
+
+.item {
+    font-family: 'Josefin Slab', serif;
+    height: 90vh;
+    background-position: center;
+    flex: 1;
+    margin: 3px;
+    position: relative;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading {
+position: absolute;
+top: 15px;
+background-color: white;
+   color: black;
+   left: 10px;
+   font-size: 0; 
+
+}
+
+.par {
+    position: absolute;
+    top: 50px;
+    background-color: white;
+   color: black;
+   left: 10px;
+   font-size: 0; 
+  
+}
+
+.price {
+    position: absolute;
+    bottom: 15px;
+   color:white;
+   left: 10px;
+   font-size: 0;  
+   background-color: white;
+   color: black;
+}
+
+.selected {
+    flex: 4;
+}
+
+.selected h4 {
+    font-size: 20px;
+    transition: all 1s ease;
+    transition-timing-function: ease-in;
+}
+
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease;
+    transition-timing-function: ease-in;
+}
+
+.selected .price {
+    font-size: 30px;
+    transition: all 1s ease;
+    transition-timing-function: ease-in;
+}
+
+.appoint {
+    font-family: 'Josefin Slab', serif;
+    display: flex;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+.forma {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label {
+    font-family: 'Josefin Slab', serif;
+    font-size: 25px;
+    padding: 12px 20px;
+    
+}
+
+.input-text {
+    border: none;
+    outline: none;
+    background-color: #F3F1F5;
+    font-family: 'Josefin Slab', serif;
+}
+
+.btn {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.buttonmain {
+    background-color: rgb(171, 107, 255);
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    font-family: 'Josefin Slab', serif;
+    flex: 1;
+    font-size: 30px;
+ 
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Josefin Slab', serif;
+    color: blueviolet;
+   
+}
+
+.openingtitle {
+    background-color: rgba(251, 248, 249, 0.9);
+    padding: 20px;
+    border: 2px solid #eae2f1;
+}
+
+.holder{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.openingcelebration {
+background-color: rgba(251, 248, 249, 0.82); 
+height: 300px;
+width: 200px;
+margin-top: 50px;
+border: 1px solid violet;
+}
+
+.openingcelebration:hover {
+    background-color: rgb(255, 240, 227);
+    border: 1px solid rgb(250, 226, 181);
+}
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Josefin Slab', serif;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 40px;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+.yellow {
+    font-size: 40px;
+    border: none;
+    font-family: 'Josefin Slab', serif;
+    color: orange;
+}
+
+#myButton {
+    margin-left: 100px;
+    border: none;
+}
+@media all and (max-width:800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .openingtitle {
+        font-size: 30px;
+    }
+}
+
+
+@media all and (max-width:500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .openingtitle {
+        font-size: 20px;
+    }
+}
